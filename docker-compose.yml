@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  bibutils:
+    build: .
+    ports:
+      - "38359:5000"
